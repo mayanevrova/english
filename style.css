@@ -1,0 +1,57 @@
+body {
+    font-family: modern;
+    background-color: #ffffff;
+    
+
+    
+}
+
+h2{
+    font-family: arial black;
+   text-align: center;
+   color: #f2add8	;
+
+}
+
+h1{
+    text-align: center;
+   color: #f2add8	;
+   font-family: arial black;
+
+
+    
+}
+
+.gl{
+    border-left: 5px SOLID #e9a7e8;
+    padding-left: 5px;
+}
+
+p{
+    padding-left: 5px;
+}
+
+.angl{
+    text-align: center;
+}
+
+
+img{
+    margin-left: 250px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #e9a7e8;
+    font-family: arial black;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}

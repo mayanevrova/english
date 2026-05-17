@@ -1,57 +1,62 @@
-body {
-    font-family: modern;
-    background-color: #ffffff;
-    
-
-    
+body{
+    background-image:linear-gradient(#FFD073,#6C8CD5,#5CCCCC);
 }
 
-h2{
-    font-family: arial black;
-   text-align: center;
-   color: #f2add8	;
-
-}
-
-h1{
-    text-align: center;
-   color: #f2add8	;
-   font-family: arial black;
-
-
-    
-}
-
-.gl{
-    border-left: 5px SOLID #e9a7e8;
-    padding-left: 5px;
-}
-
-p{
-    padding-left: 5px;
-}
-
-.angl{
-    text-align: center;
-}
-
-
-img{
-    text-align:center;
+.paint{
+    border-radius: 40%;
+    opacity: 1;
 }
 
 nav a{
     text-decoration: none;
-    color: #e9a7e8;
-    font-family: arial black;
-    
+    color: #8B4513;
+    font-size: 20px;
+    font-family: ARIAL BLACK;
 }
 
+nav a:hover{
+    font-size: 25px;
+    color:rgb(97, 53, 13);
+}
 nav{
     display: flex;
     justify-content: center;
     justify-content: space-between;
     justify-content: space-around;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+}
+h1{
+    color: #CD853F;
+    font-family: ARIAL BLACK;
+    text-align: center;
+}
+.info p{
+    font-family: ARIAL BLACK;
+    font-size: 15px;
+    color: #0b0b0b;
+    border-left: 5px solid #CD853F;
+    padding-left: 5px;
+}
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+}
+
+.paint:hover{
+    transform: scale(1.5);
+    transition: all 3s linear;
+}
+
+td{
+    border:3px solid black;
+}
+
+table{
+    border-collapse:collapse ;
+    font-family: arial black;
+    font-size: 15px;
+}
+table tr:first-child {
+    background-color: #e6ac0b;
 }
